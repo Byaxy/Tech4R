@@ -14,7 +14,7 @@ const EventCard = ({ title, description, onSeeAll }: EventCardProps) => {
         <h3 className="text-[32px] font-medium text-white leading-[140%] tracking-[-1px]">
           {title}
         </h3>
-        <p className="text-neutral-01 text-lg leading-[170%] tracking-normal">
+        <p className="text-neutral-01 text-lg leading-[170%] tracking-normal line-clamp-2">
           {description}
         </p>
       </div>
